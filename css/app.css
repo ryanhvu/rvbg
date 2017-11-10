@@ -179,9 +179,9 @@ color: green;
 }
 
 #photography {
-    background-image:url(../img/grad2.jpg);
+    background-image:url(../img/graduation/grad2.jpg);
     background-repeat:no-repeat;
-    background-position: center top;
+    background-position: -100px -40px;
     background-size: 475px;
     position: relative;
     border:1px solid #CCC;
