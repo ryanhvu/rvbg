@@ -4,6 +4,12 @@ font-family: 'Alegreya Sans SC', sans-serif;
 font-family: 'Arsenal', sans-serif;
 */
 
+p{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18px;
+}
+
+/*////////////INDEX/////////*/
 body{
   margin: 0;
   background-color: white;
@@ -27,49 +33,6 @@ width: 1200px;
   float: none;
 }
 
-/* social media icons*/
-/* Style all font awesome icons */
-.fa {
-    font-size: 40px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    padding: 16px 16px;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.8;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    color: black;
-}
-
-/* Instagram */
-.fa-instagram {
-    color: black;
-}
-
-/* LinkedIn */
-.fa-linkedin {
-    color: black;
-}
-/*#logo{
-    background-color: black;
-    padding: 0px;
-    margin-left: 0px;
-    color: white;
-    position: relative;
-    float: left;
-    display: flex;
-    text-align: center;
-    border-radius: 0px 0px 0px 0px;
-
-}*/
 
 footer{
   text-align:center;
@@ -83,7 +46,7 @@ footer{
   font-family: 'Arsenal', sans-serif;
 }
 
-/*nav menu*/
+/*/////////////nav menu//////////////*/
 a:link{color: black;}
 a:visited{color: black;}
 
@@ -132,6 +95,38 @@ h1{
  margin-top:0px;
 }
 
+/* social media icons*/
+/* Style all font awesome icons */
+.fa {
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 16px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.8;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: black;
+}
+
+/* Instagram */
+.fa-instagram {
+    color: black;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    color: black;
+}
+
 .RVBG .char1 {
 color: red;
 }
@@ -142,17 +137,7 @@ color: blue;
 color: green;
 }
 
-
-
-
-
-/*.active{
-    background-color: orange;
-    color: black;
-    text-shadow: 1px 1px gray;
-}*/
-
-/*PORTFOLIO*/
+/*//////////PORTFOLIO/////////*/
 
 #graphics {
     background-image:url(../img/graphics/ikea1.png);
@@ -225,6 +210,143 @@ color: green;
   -ms-filter: blur(4px);
   filter: blur(4px);
 }
+
+#mariah {
+    background-image:url(../img/animation/mariah.jpg);
+    background-repeat:no-repeat;
+    background-position: -100px -20px;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#mariah:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.lyrics{
+  line-height: -10px;
+  text-align: center;
+}
+
+.mariah1p{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+}
+.mariah1b{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: lightpink;
+  opacity: .7;
+  position: absolute;
+  margin-left: 5px;
+  transition: all 1s ease-in-out;
+}
+.mariah1b:hover{
+  font-family: 'Allura', cursive;
+  position: absolute;
+  font-size: 40px;
+animation:pulse 1.5s linear infinite;
+}
+
+@keyframes pulse {        20% {opacity:0}
+                          50% {opacity:1; }
+                          60% {opacity:.0; }
+                          80% {opacity:1; }
+                          100%{opacity:0;}
+                  }
+
+.mariah2{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: lightpink;
+  opacity: .7;
+  position: absolute;
+  margin-left: 5px;
+  transition: all 2s ease-in-out;
+}
+
+.mariah2:hover{
+  position: relative;
+  font-size: 40px;
+  animation:move 4s infinite;
+}
+
+@keyframes move
+{     0%   {left:0px; top:0px;}
+    100% {left:0px; top:650px;}
+                  }
+
+.mariah3{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: lightpink;
+  opacity: .7;
+  position: relative;
+}
+
+.mariah3p{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: black;
+  position: relative;
+  transition: all 1s, ease-in-out;
+}
+
+.mariah3:hover{
+  position:absolute;
+  font-size: 40px;
+  animation-name: wrestle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes wrestle
+{      0% {transform:rotate(0deg);
+            left:100px; top:0px;}
+      100% {transform:rotate(360deg);
+              left:100px; top:0px;}
+                  }
+.mariah4{
+  font-family: 'Allura', cursive;
+  font-size: 30px;
+  color: pink;
+  margin-top:25px;
+  transition: all 1s ease-in-out;
+}
+
+.mariah4:hover{
+  position: relative;
+  font-size: 40px;
+  animation: play 2s infinite;
+}
+
+@keyframes play{
+        0% {left:0px; top:0px;}
+      25% {left:0px; top:30px;}
+      50% {left:0px; top:-20px;}
+      75% {left:0px; top:30px;}
+      100% {left:0px; top:0px;}
+    }
+
+
+.mariahvid{
+  float: center;
+  margin-top: 25px;
+}
+
 /* Centered text */
 /* Container holding the image and the text */
 .container {
@@ -250,35 +372,3 @@ h2{
   font-weight: bold;
   text-shadow: 1px 1px black;
 }
-
-/*.background-image {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-
-  display: block;
-  background-image: url(../img/graphics/sprint.jpg);
-  width: 1200px;
-  height: 800px;
-
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-
-.content {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  margin-left: 20px;
-  margin-right: 20px;
-}*/
