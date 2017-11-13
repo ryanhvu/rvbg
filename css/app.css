@@ -187,6 +187,8 @@ color: green;
   filter: blur(4px);
 }
 
+
+/*//////////ANIMATION/////////*/
 #animation {
     background-image:url(../img/animation/1.jpg);
     background-repeat:no-repeat;
@@ -235,8 +237,9 @@ color: green;
   filter: blur(4px);
 }
 
+/*//////////MARIAH CAREY KEYFRAMES/////////*/
 .lyrics{
-  line-height: -10px;
+  margin-top: 25px;
   text-align: center;
 }
 
@@ -347,6 +350,118 @@ animation:pulse 1.5s linear infinite;
   margin-top: 25px;
 }
 
+/*////////SPRITE ANIMATION//////////*/
+#sprite {
+    background-image:url(../img/animation/1.jpg);
+    background-repeat:no-repeat;
+    background-position: middle bottom;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#sprite:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+/*.spritecontainer{
+  height: 400px;
+  width: auto;
+}*/
+
+.spritesheet{
+    background-image: url("../img/animation/cf sprite1000.jpg");
+    padding-bottom:25px;
+}
+.spriteanimation{
+    width: 250px;
+    height: 167px;
+    background-image: url("../img/animation/cf sprite1000.jpg");
+    padding-bottom:25px;
+
+    -webkit-animation: play .5s steps(4) infinite;
+       -moz-animation: play .5s steps(4) infinite;
+        -ms-animation: play .5s steps(4) infinite;
+         -o-animation: play .5s steps(4) infinite;
+            animation: play .5s steps(4) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+.snorlaxspritesheet{
+    background-image: url("../img/animation/snorlaxsprite.png");
+}
+
+.snorlaxanimation{
+  margin-left: 80px;
+    width: 81px;
+    height: 87px;
+    background-image: url("../img/animation/snorlaxsprite.png");
+
+    -webkit-animation: plays .8s steps(9) infinite;
+       -moz-animation: plays .8s steps(9) infinite;
+        -ms-animation: plays .8s steps(9) infinite;
+         -o-animation: plays .8s steps(9) infinite;
+            animation: plays .8s steps(9) infinite;
+}
+
+@-webkit-keyframes plays {
+   from { background-position:    0px; }
+     to { background-position: -729px; }
+}
+
+@-moz-keyframes plays {
+   from { background-position:    0px; }
+     to { background-position: -729px; }
+}
+
+@-ms-keyframes plays {
+   from { background-position:    0px; }
+     to { background-position: -729px; }
+}
+
+@-o-keyframes plays {
+   from { background-position:    0px; }
+     to { background-position: -729px; }
+}
+
+@keyframes plays {
+   from { background-position:    0px; }
+     to { background-position: -729px; }
+}
 /* Centered text */
 /* Container holding the image and the text */
 .container {
