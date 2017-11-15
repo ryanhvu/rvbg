@@ -5,13 +5,15 @@ font-family: 'Arsenal', sans-serif;
 */
 
 p{
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Georgia', serif;
   font-size: 18px;
 }
 
 /*////////////INDEX/////////*/
 body{
   margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
   background-color: white;
 }
 
@@ -38,7 +40,6 @@ footer{
   text-align:center;
   font-size: 10px;
   padding-top: 10px;
-  position: relative;
 }
 
 .quote{
@@ -138,7 +139,6 @@ color: green;
 }
 
 /*//////////PORTFOLIO/////////*/
-
 #graphics {
     background-image:url(../img/graphics/ikea1.png);
     background-repeat:no-repeat;
@@ -154,6 +154,119 @@ color: green;
 }
 
 #graphics:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+#limitless {
+    background-image:url(../img/graphics/limitless/Father.jpg);
+    background-repeat:no-repeat;
+    background-position: bottom, right;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#limitless:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+#father {
+    background-image:url(../img/graphics/limitless/Father.jpg);
+    background-repeat:no-repeat;
+    background-size: 150px;
+    display:block;
+    height:150px;
+    transition: .2s ease-in-out;
+    width:150px;
+}
+
+#july4 {
+    background-image:url(../img/graphics/limitless/July4.jpg);
+    background-repeat:no-repeat;
+    background-size: 150px;
+    display:block;
+    height:150px;
+    transition: .2s ease-in-out;
+    width:150px;
+}
+
+#memorialposter {
+    background-image:url(../img/graphics/limitless/MemorialSquare.jpg);
+    background-repeat:no-repeat;
+    background-size: 150px;
+    display:block;
+    height:150px;
+    transition: .2s ease-in-out;
+    width:150px;
+}
+
+#memorialflyer {
+    background-image:url(../img/graphics/limitless/MemorialPoster.jpg);
+    background-repeat:no-repeat;
+    background-size: 150px;
+    display:block;
+    height:195px;
+    transition: .2s ease-in-out;
+    width:150px;
+}
+
+
+#projects {
+    background-image:url(../img/graphics/calendar/JAS.jpg);
+    background-repeat:no-repeat;
+    background-position: left, bottom;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#projects:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+#clients {
+    background-image:url(../img/graphics/clients/jessiecourt.png);
+    background-repeat:no-repeat;
+    background-position: -55px, 50px;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#clients:hover{
   color: white;
   opacity: 0.6;
   -webkit-filter: blur(4px);
@@ -251,6 +364,7 @@ color: green;
   font-family: 'Allura', cursive;
   font-size: 30px;
   color: lightpink;
+  text-shadow: 5px 5px .5;
   opacity: .7;
   position: absolute;
   margin-left: 5px;
@@ -274,6 +388,7 @@ animation:pulse 1.5s linear infinite;
   font-family: 'Allura', cursive;
   font-size: 30px;
   color: lightpink;
+  text-shadow: 5px 5px .5;
   opacity: .7;
   position: absolute;
   margin-left: 5px;
@@ -295,6 +410,7 @@ animation:pulse 1.5s linear infinite;
   font-family: 'Allura', cursive;
   font-size: 30px;
   color: lightpink;
+  text-shadow: 5px 5px .5;
   opacity: .7;
   position: relative;
 }
@@ -333,10 +449,10 @@ animation:pulse 1.5s linear infinite;
 .mariah4:hover{
   position: relative;
   font-size: 40px;
-  animation: play 2s infinite;
+  animation: bounce 2s infinite;
 }
 
-@keyframes play{
+@keyframes bounce{
         0% {left:0px; top:0px;}
       25% {left:0px; top:30px;}
       50% {left:0px; top:-20px;}
@@ -462,6 +578,178 @@ animation:pulse 1.5s linear infinite;
    from { background-position:    0px; }
      to { background-position: -729px; }
 }
+
+/*///////////////TRANSITIONS///////////////*/
+
+#transitions {
+    background-image:url(../img/ss1.jpg);
+    background-repeat:no-repeat;
+    background-position: -100px -20px;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#transitions:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.description{
+  font-family: "Georgia", serif;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.grow{
+  text-align: center;
+  font-family: "Georgia", serif;
+  transition: all 2s ease-in-out;
+  font-size: 50px;
+}
+
+.grow:hover{
+  font-size: 450px;
+}
+
+.shrink{
+  text-align: center;
+  font-family: "Georgia", serif;
+  transition: all 2s ease-in-out;
+  font-size: 50px;
+}
+
+.shrink:hover{
+  font-size: 2px;
+}
+
+.disappear{
+  text-align: center;
+  font-family: "Georgia", serif;
+  transition: all 2s ease-in-out;
+  font-size: 50px;
+}
+
+.disappear:hover{
+  opacity:0;
+}
+
+.bleed{
+  text-align: center;
+  font-family: "Georgia", serif;
+  transition: all 2s ease-in-out;
+  font-size: 50px;
+}
+
+.bleed:hover{
+  color: red;
+}
+
+/*//////////////KEYFRAMES FISH///////////////*/
+#fish {
+    background-image:url(../img/animation/green.png);
+    background-repeat:no-repeat;
+    background-position: -50px -50px;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#fish:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.poem{
+  margin-top: 700px;
+  font-family: 'Carter One', cursive;
+}
+
+h3{
+  font-family: 'Carter One', cursive;
+}
+
+.fish1{
+  background-image:url(../img/animation/green.png);
+  background-repeat:no-repeat;
+  background-position: middle middle;
+  background-size: 200px;
+  position: relative;
+  display:block;
+  height:200px;
+  transition: .2s ease-in-out;
+  width:350px;
+  animation: green1 6s infinite;
+}
+
+@keyframes green1
+{     0%   {left:-800px; top:500px;}
+      40%   {left:0px; top:500px;}
+      50%  {left: 0px; top: 500px;}
+  100% {left:1800px; top:500px;}
+                }
+
+.fish2{
+  background-image:url(../img/animation/blue.png);
+    background-repeat:no-repeat;
+    background-position: middle middle;
+    background-size: 200px;
+    position: relative;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    animation: blue1 6s infinite;
+                }
+
+@keyframes blue1{
+  0%   {left:-300px; top:900px;}
+  50% {left:-300px; top:690px;}
+  100% {left: -300px; top: 900px;}
+}
+
+.fish3{
+  background-image:url(../img/animation/red.png);
+    background-repeat:no-repeat;
+    background-position: middle middle;
+    background-size: 300px;
+    position: relative;
+    display:block;
+    height:400px;
+    transition: .2s ease-in-out;
+    width:400px;
+    animation: red1 5s infinite;
+                }
+
+@keyframes red1{
+  0%   {left:1800px; top:-600px;}
+  50% {left: 0px; top: -600px;}
+  70% {left: 0px; top: -600px;}
+  100% {left: -800px; top: -600px;}
+}
+
+
 /* Centered text */
 /* Container holding the image and the text */
 .container {
@@ -470,9 +758,19 @@ animation:pulse 1.5s linear infinite;
     color: white;
     text-shadow: 1px 1px white;
     border: solid black 2px;
-    margin-left: 34px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
+.thumbnail {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.gallery{
+  margin-left: 400px;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -480,10 +778,48 @@ animation:pulse 1.5s linear infinite;
     transform: translate(-50%, -50%);
 }
 
+.textblurb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-500px, -50%);
+}
+
+h5{
+  color:black;
+}
+
 h2{
   font-size: 43px;
   font-family: 'Codystar', cursive;
   color: lightyellow;
   font-weight: bold;
+  display: inline-block;
   text-shadow: 1px 1px black;
+}
+
+.desc{
+  font-family: 'Georgia', serif;
+  text-align: left;
+}
+
+#saveForm{
+  font-family: 'Georgia', serif;
+}
+
+/*///////////////////////BIO/////////////////////////*/
+.profilepicture {
+    background-image:url(../img/pp3.png);
+    background-repeat:no-repeat;
+    background-position: left top;
+    background-size: 300px;
+    position: relative;
+    height:300px;
+    width:300px;
+}
+
+.blurb{
+  text-align: center;
+  padding-left: 5px;
+  margin-top: 40px;
 }
