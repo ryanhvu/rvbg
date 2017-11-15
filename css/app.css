@@ -187,12 +187,44 @@ color: green;
   filter: blur(4px);
 }
 
+.button1{
+  max-height: 200px;
+  max-width: 200px;
+  background-color: white;
+  border-color: black 1px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.crop{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.crop img{
+  height: auto;
+  width: 300px;
+}
+
+.button1:active{
+  background-color: white;
+}
+
+.button1:visited{
+  background-color: white;
+}
+
+.button1:hover{
+  background-color: white;
+}
+
 #father {
     background-image:url(../img/graphics/limitless/Father.jpg);
     background-repeat:no-repeat;
     background-size: 150px;
+    background-position: 0px;
     display:block;
-    height:150px;
+    height:195px;
     transition: .2s ease-in-out;
     width:150px;
 }
@@ -201,8 +233,9 @@ color: green;
     background-image:url(../img/graphics/limitless/July4.jpg);
     background-repeat:no-repeat;
     background-size: 150px;
+    background-position: 0px;
     display:block;
-    height:150px;
+    height:195px;
     transition: .2s ease-in-out;
     width:150px;
 }
@@ -211,8 +244,9 @@ color: green;
     background-image:url(../img/graphics/limitless/MemorialSquare.jpg);
     background-repeat:no-repeat;
     background-size: 150px;
+    background-position: 0px;
     display:block;
-    height:150px;
+    height:195px;
     transition: .2s ease-in-out;
     width:150px;
 }
@@ -221,6 +255,28 @@ color: green;
     background-image:url(../img/graphics/limitless/MemorialPoster.jpg);
     background-repeat:no-repeat;
     background-size: 150px;
+    display:block;
+    height:195px;
+    transition: .2s ease-in-out;
+    width:150px;
+}
+
+#supercuts {
+    background-image:url(../img/graphics/Supercuts3.jpg);
+    background-repeat:no-repeat;
+    background-size: 150px;
+    background-position: 0px;
+    display:block;
+    height:195px;
+    transition: .2s ease-in-out;
+    width:150px;
+}
+
+#sprint {
+    background-image:url(../img/graphics/sprint.jpg);
+    background-repeat:no-repeat;
+    background-size: 150px;
+    background-position: 0px;
     display:block;
     height:195px;
     transition: .2s ease-in-out;
@@ -762,6 +818,13 @@ h3{
     margin-top: 10px;
 }
 
+.container2{
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px white;
+  border: solid black 2px;
+}
+
 .thumbnail {
     margin-left: 10px;
     margin-top: 10px;
@@ -776,13 +839,6 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.textblurb {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-500px, -50%);
 }
 
 h5{
