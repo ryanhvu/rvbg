@@ -218,71 +218,6 @@ color: green;
   background-color: white;
 }
 
-#father {
-    background-image:url(../img/graphics/limitless/Father.jpg);
-    background-repeat:no-repeat;
-    background-size: 150px;
-    background-position: 0px;
-    display:block;
-    height:195px;
-    transition: .2s ease-in-out;
-    width:150px;
-}
-
-#july4 {
-    background-image:url(../img/graphics/limitless/July4.jpg);
-    background-repeat:no-repeat;
-    background-size: 150px;
-    background-position: 0px;
-    display:block;
-    height:195px;
-    transition: .2s ease-in-out;
-    width:150px;
-}
-
-#memorialposter {
-    background-image:url(../img/graphics/limitless/MemorialSquare.jpg);
-    background-repeat:no-repeat;
-    background-size: 150px;
-    background-position: 0px;
-    display:block;
-    height:195px;
-    transition: .2s ease-in-out;
-    width:150px;
-}
-
-#memorialflyer {
-    background-image:url(../img/graphics/limitless/MemorialPoster.jpg);
-    background-repeat:no-repeat;
-    background-size: 150px;
-    display:block;
-    height:195px;
-    transition: .2s ease-in-out;
-    width:150px;
-}
-
-#supercuts {
-    background-image:url(../img/graphics/Supercuts3.jpg);
-    background-repeat:no-repeat;
-    background-size: 150px;
-    background-position: 0px;
-    display:block;
-    height:195px;
-    transition: .2s ease-in-out;
-    width:150px;
-}
-
-#sprint {
-    background-image:url(../img/graphics/sprint.jpg);
-    background-repeat:no-repeat;
-    background-size: 150px;
-    background-position: 0px;
-    display:block;
-    height:195px;
-    transition: .2s ease-in-out;
-    width:150px;
-}
-
 
 #projects {
     background-image:url(../img/graphics/calendar/JAS.jpg);
@@ -299,30 +234,6 @@ color: green;
 }
 
 #projects:hover{
-  color: white;
-  opacity: 0.6;
-  -webkit-filter: blur(4px);
-  -moz-filter: blur(4px);
-  -o-filter: blur(4px);
-  -ms-filter: blur(4px);
-  filter: blur(4px);
-}
-
-#clients {
-    background-image:url(../img/graphics/clients/jessiecourt.png);
-    background-repeat:no-repeat;
-    background-position: -55px, 50px;
-    background-size: 475px;
-    position: relative;
-    border:1px solid #CCC;
-    display:block;
-    height:200px;
-    transition: .2s ease-in-out;
-    width:350px;
-    text-align: center;
-}
-
-#clients:hover{
   color: white;
   opacity: 0.6;
   -webkit-filter: blur(4px);
@@ -805,6 +716,31 @@ h3{
   100% {left: -800px; top: -600px;}
 }
 
+
+/*//////////WEB DESIGN/////////*/
+#webdesign {
+    background-image:url(../img/frannie/storefront.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 475px;
+    position: relative;
+    border:1px solid #CCC;
+    display:block;
+    height:200px;
+    transition: .2s ease-in-out;
+    width:350px;
+    text-align: center;
+}
+
+#webdesign:hover{
+  color: white;
+  opacity: 0.6;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
 
 /* Centered text */
 /* Container holding the image and the text */
